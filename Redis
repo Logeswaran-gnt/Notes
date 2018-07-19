@@ -1,0 +1,8 @@
+Redis
+- Open source, single threaded, in-memory database, latest version 4.0
+- Data structures - string, list, set, sorted set, hash, bitmap
+- Real time application - > restrict user to login lessthan 3 times in an hour(using time to live)
+- Consumption based pay-> Pay as you go: <user id> usage 20 <user id> cost 40
+- we can make the data persistent by writing the content on file
+- Pub/Sub is used to message passing with n channels and n clients
+- Master/Slave to make the data high-availability, failover
